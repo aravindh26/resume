@@ -461,8 +461,8 @@ section:nth-child(2n){
 	display: inline-block;
 	position: absolute;
 	white-space: nowrap;
-	left: 0;
-	top: 0;
+	left: 0px;
+	top: 0px;
 }
 .cd-words-wrapper b i,
 .cd-words-wrapper b em {
@@ -576,6 +576,34 @@ b{
 	-moz-box-shadow:0 0 5px rgba(0,0,0,0.06);
 	-ms-box-shadow:0 0 5px rgba(0,0,0,0.06);
 	box-shadow:0 0 5px rgba(0,0,0,0.06);
+}
+.operation1
+{
+	width: 100%;
+	float:right;
+	height:auto;
+	padding:20px 20px 25px;
+	background:#fff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin: 85px 49px 0 0;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.06);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.06);
+	-ms-box-shadow:0 0 5px rgba(0,0,0,0.06);
+	box-shadow:0 0 5px rgba(0,0,0,0.06);
+
+
+}
+.operation1:hover{
+	-webkit-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
+	-ms-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
+	box-shadow:0px 3px 5px rgba(0,0,0,0.3);
 }
 .panel-box:hover{
 	-webkit-box-shadow:0px 3px 5px rgba(0,0,0,0.3);
